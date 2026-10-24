@@ -155,3 +155,8 @@ color:#fff;text-shadow:0 2px 20px rgba(0,0,0,.6)}
 .page-hero{padding:100px 20px 80px}.menu-wrap{padding:30px 14px 80px}.menu-block{padding:28px 20px}.menu-title{font-size:36px}.mi:has(.mi-num) p{padding-left:0}.mi h4{font-size:15px}
 .margs-copy{padding:70px 20px}.cta-card{padding:40px 24px}.cta-card h3{font-size:34px}.neon-form{padding:30px 20px}.map-wrap{padding:0 20px 80px}.map-wrap iframe{height:340px}
 .footer-grid{grid-template-columns:1fr;text-align:center;padding:60px 20px 30px}.footer-brand img{margin:0 auto 14px}}
+
+.video-btn{position:absolute;z-index:4;top:24px;right:5vw;display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 20px;border-radius:999px;border:2px solid var(--pink);background:rgba(11,10,16,.75);color:#fff;font:700 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;cursor:pointer;box-shadow:0 0 14px rgba(47,123,255,.5);transition:background .2s,transform .2s}
+.video-btn:hover{background:var(--pink);transform:translateY(-2px)}.video-btn:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.vb-icon{font-size:14px;line-height:1}
+@media(max-width:640px){.video-btn{top:16px;right:20px;min-height:44px;padding:0 16px;font-size:12px}}
