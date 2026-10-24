@@ -7,8 +7,3 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 document.querySelectorAll('form[data-mailto]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();
 const body=[...new FormData(f)].map(([k,v])=>`${k}: ${v}`).join('\n');
 location.href=`mailto:${f.dataset.mailto}?subject=${encodeURIComponent(f.dataset.subject)}&body=${encodeURIComponent(body)}`;}));
-// menu tab highlight
-const tabs=[...document.querySelectorAll('.menu-tabs a')];
-if(tabs.length){const secs=tabs.map(a=>document.querySelector(a.getAttribute('href')));
-addEventListener('scroll',()=>{let cur=0;secs.forEach((s,i)=>{if(s&&s.getBoundingClientRect().top<200)cur=i});
-tabs.forEach((a,i)=>a.classList.toggle('on',i===cur));tabs[cur].scrollIntoView({block:'nearest',inline:'center'});},{passive:true});}
