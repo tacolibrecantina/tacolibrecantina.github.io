@@ -7,3 +7,5 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 document.querySelectorAll('form[data-mailto]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();
 const body=[...new FormData(f)].map(([k,v])=>`${k}: ${v}`).join('\n');
 location.href=`mailto:${f.dataset.mailto}?subject=${encodeURIComponent(f.dataset.subject)}&body=${encodeURIComponent(body)}`;}));
+n&&n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');t.setAttribute('aria-expanded','false')}));
+document.addEventListener('click',e=>{if(n&&n.classList.contains('open')&&!e.target.closest('.site-header')){n.classList.remove('open');t.setAttribute('aria-expanded','false')}});
