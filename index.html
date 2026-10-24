@@ -3,142 +3,96 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Taco Libre Cantina — globally inspired craft tacos and frozen margaritas on Hwy 17 in North Myrtle Beach, SC.">
-<meta name="theme-color" content="#14110f">
-<title>Taco Libre Cantina | Global Tacos & Frozen Margs · North Myrtle Beach</title>
+<title>Taco Libre Cantina | Frozen Margs &amp; Global Tacos · North Myrtle Beach</title>
+<meta name="description" content="Globally inspired craft tacos and frozen margaritas on Hwy 17 in North Myrtle Beach, SC.">
+<meta name="theme-color" content="#0b0a10">
 <link rel="icon" href="taco libre logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Tilt+Neon&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<header class="site-header" id="top">
-  <a class="brand" href="#top" aria-label="Taco Libre home"><img src="taco libre logo.png" alt="Taco Libre logo"></a>
-  <nav class="nav" aria-label="Primary">
-    <a href="#story">Our Story</a><a href="#menu">Menu</a><a href="#margs">Margaritas</a><a href="#parties">Events</a><a href="#visit">Visit</a>
-  </nav>
-  <a class="btn btn-primary btn-sm desk" href="#visit">Find Us</a>
-  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+<body class="home">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="chrome-bar">
+    <a class="brand" href="index.html" aria-label="Taco Libre home"><img src="taco libre logo.png" alt="Taco Libre"></a>
+    <nav class="nav" aria-label="Primary"><a href="index.html" class="active" aria-current="page">Home</a><a href="about.html">About</a><a href="menu.html">Menus</a><a href="events.html">Events & Parties</a><a href="contact.html">Contact</a></nav>
+    <a class="btn btn-neon btn-sm desk" href="https://maps.google.com/?q=Taco+Libre+730+Hwy+17+S+North+Myrtle+Beach+SC+29582" target="_blank" rel="noopener">Directions</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="checker" aria-hidden="true"></div>
 </header>
+<main id="main">
 
-<main>
 <section class="hero">
   <video autoplay muted loop playsinline preload="metadata" poster="taco 1.avif"><source src="taco libre video mobile format.mp4" type="video/mp4"></video>
   <div class="hero-shade"></div>
-  <div class="hero-inner reveal">
-    <p class="eyebrow">Authentic Craft Tacos · North Myrtle Beach</p>
-    <h1>The Freedom<br><em>to Taco.</em></h1>
-    <p class="hero-sub">Ancestral Mexican heritage meets a bold global palate — with frozen margaritas made from fresh fruit.</p>
-    <div class="hero-actions">
-      <button class="btn btn-primary" data-open-menu>View Full Menu</button>
-      <a class="btn btn-ghost" href="https://maps.google.com/?q=Taco+Libre+730+Hwy+17+S+North+Myrtle+Beach+SC+29582" target="_blank" rel="noopener">Get Directions</a>
-    </div>
+  <div class="hero-inner">
+    <p class="kicker">★ Authentic Craft Tacos ★ North Myrtle Beach</p>
+    <h1 class="hero-title"><span class="sign-xl">Frozen Margs</span><span class="neon-script pink flicker big">&amp; Global Tacos</span></h1>
+    <p class="sub">The freedom to taco. Ancestral Mexican heritage meets a bold global palate — served under the neon on Highway 17.</p>
+    <div class="actions"><a class="btn btn-neon" href="menu.html">See the Full Menu</a><a class="btn btn-chrome" href="https://maps.google.com/?q=Taco+Libre+730+Hwy+17+S+North+Myrtle+Beach+SC+29582" target="_blank" rel="noopener">Get Directions</a></div>
   </div>
-  <div class="hero-info">
-    <div><span>Hours</span>Mon–Sat · 4–9 PM</div>
-    <div><span>Location</span>730 Hwy 17 S</div>
-    <div><span>Call</span><a href="tel:+18432730443">(843) 273-0443</a></div>
+  <div class="hours-sign" aria-label="Hours"><span class="open-dot"></span><b class="neon-script lime">Open</b><span>Mon–Sat · 4–9 PM</span></div>
+</section>
+
+<section class="marquee" aria-hidden="true"><div class="marquee-track"><span>Global Tacos</span><span>★</span><span>Frozen Margs</span><span>★</span><span>Rare Agaves</span><span>★</span><span>Queso Birria</span><span>★</span><span>Hwy 17 · NMB</span><span>★</span><span>Global Tacos</span><span>★</span><span>Frozen Margs</span><span>★</span><span>Rare Agaves</span><span>★</span><span>Queso Birria</span><span>★</span><span>Hwy 17 · NMB</span><span>★</span></div></section>
+
+<section class="split section">
+  <div class="frame chrome-frame reveal"><img src="libre storefront.jpg" alt="Taco Libre's retro metal diner storefront"></div>
+  <div class="reveal">
+    <p class="kicker">The Origin</p>
+    <h2 class="sign">A worldwide <span class="neon-script cyan">influence</span></h2>
+    <p class="lead">Taco Libre redefines the taco by merging ancestral Mexican heritage with a global palate — international ingredients, traditional technique, and tacos that transcend borders.</p>
+    <p>Behind the chrome is a dark, neon-lit cantina built for cold margaritas and second rounds of tacos.</p>
+    <a class="btn btn-chrome" href="about.html">Our Story</a>
   </div>
 </section>
 
-<section class="story section" id="story">
-  <div class="story-media reveal">
-    <img class="img-main" src="libre storefront.jpg" alt="Taco Libre storefront on Highway 17 in North Myrtle Beach">
-    <img class="img-float" src="taco 1.avif" alt="Taco Libre craft tacos" loading="lazy">
+<section class="section favs">
+  <div class="center reveal"><p class="kicker">Off the Grill</p><h2 class="sign">House <span class="neon-script pink">Favorites</span></h2></div>
+  <div class="fav-grid">
+    <article class="fav reveal"><span class="fav-tag">Beef</span><h3>Queso Birria</h3><p>Braised beef, Chihuahua cheese, onion & cilantro with consommé for dipping. (2)</p><span class="fav-price">$9</span></article><article class="fav reveal"><span class="fav-tag">Chicken</span><h3>Butter Chicken</h3><p>Fried tender, butter sauce, cilantro lime rice, cooling raita.</p><span class="fav-price">$6.50</span></article><article class="fav reveal"><span class="fav-tag">Pork</span><h3>Pastor Supreme</h3><p>Pastor, grilled pineapple salsa, grilled onion, cilantro lime rice, chicharrón.</p><span class="fav-price">$7</span></article><article class="fav reveal"><span class="fav-tag">Seafood</span><h3>Firecracker Shrimp</h3><p>Fried shrimp, bang bang sauce, cilantro slaw, sweet pepper.</p><span class="fav-price">$6.50</span></article><article class="fav reveal"><span class="fav-tag">Chicken</span><h3>Nashville Hot</h3><p>Fried tender, Nashville sauce, coleslaw, pickles.</p><span class="fav-price">$6</span></article><article class="fav reveal"><span class="fav-tag">Veggie</span><h3>Fried Avocado</h3><p>Panko-breaded avocado, cilantro slaw, corn slaw.</p><span class="fav-price">$7.50</span></article>
   </div>
-  <div class="story-copy reveal">
-    <p class="eyebrow dark">The Origin</p>
-    <h2>Mexican roots.<br><em>Worldwide influence.</em></h2>
-    <p class="lead">Taco Libre merges ancestral Mexican heritage with a global palate — pairing international ingredients with traditional technique to create tacos that cross borders.</p>
-    <p>Tacos are served à la carte, so you can mix and match: a classic pastor next to Nashville hot chicken, butter tofu beside queso birria. Order at the counter, grab a seat, and we'll bring it to you.</p>
-    <div class="stats">
-      <div><strong>30+</strong><span>Craft tacos</span></div>
-      <div><strong>7</strong><span>Margaritas</span></div>
-      <div><strong>1</strong><span>Bold palate</span></div>
-    </div>
-  </div>
+  <div class="center"><a class="btn btn-neon" href="menu.html">View the Full Menu</a></div>
 </section>
 
-<section class="favorites section" id="menu">
-  <div class="section-head reveal">
-    <p class="eyebrow dark">House Favorites</p>
-    <h2>Start your <em>flavor journey.</em></h2>
-    <p>A few guest favorites to get you going. See the full menu for tacos, bowls, quesadillas, aperitivos and more.</p>
-  </div>
-  <div class="cards">
-    <article class="card reveal"><div class="card-top"><span class="tag">Beef</span><span class="price">$9</span></div><h3>Queso Birria</h3><p>Braised beef, Chihuahua cheese, cilantro and onion, served with rich consommé for dipping. (2)</p></article>
-    <article class="card reveal"><div class="card-top"><span class="tag">Chicken</span><span class="price">$6.5</span></div><h3>Butter Chicken</h3><p>Crispy fried tender, butter sauce, cilantro-lime rice and cooling raita.</p></article>
-    <article class="card reveal"><div class="card-top"><span class="tag">Pork</span><span class="price">$7</span></div><h3>Pastor Supreme</h3><p>Pastor, grilled pineapple salsa, grilled onion, cilantro-lime rice and chicharrón.</p></article>
-    <article class="card reveal"><div class="card-top"><span class="tag">Seafood</span><span class="price">$6.5</span></div><h3>Firecracker Shrimp</h3><p>Fried shrimp, bang bang sauce, cilantro slaw and sweet pepper.</p></article>
-    <article class="card reveal"><div class="card-top"><span class="tag">Chicken</span><span class="price">$6</span></div><h3>Nashville Hot</h3><p>Fried tender, Nashville hot sauce, coleslaw and pickles.</p></article>
-    <article class="card reveal"><div class="card-top"><span class="tag">Veggie</span><span class="price">$7.5</span></div><h3>Fried Avocado</h3><p>Panko-breaded avocado, cilantro slaw and corn slaw.</p></article>
-  </div>
-  <div class="center"><button class="btn btn-primary" data-open-menu>View Full Food & Drink Menu</button></div>
-</section>
-
-<section class="margs" id="margs">
-  <div class="margs-img"><img src="taco 2.avif" alt="Taco Libre food and margaritas" loading="lazy"></div>
+<section class="margs">
+  <div class="margs-img"><img src="taco 2.avif" alt="Tacos and margaritas at Taco Libre" loading="lazy"></div>
   <div class="margs-copy reveal">
-    <p class="eyebrow">Frozen Margs</p>
-    <h2>Fresh fruit.<br><em>Never sweet ’n sour.</em></h2>
-    <p>Real lime, agave and fresh fruit — on the rocks, frozen, swirled, or layered into the showstopping Freedom Margarita.</p>
+    <p class="kicker">Behind the Bar</p>
+    <h2 class="sign">Margs <span class="neon-script lime">on tap</span></h2>
+    <p>Fresh lime, agave and real fruit — frozen, on the rocks, swirled, or layered into the legendary Freedom Margarita.</p>
     <ul class="price-list">
       <li><span>Frozen Margarita</span><i></i><b>$10</b></li>
       <li><span>Margarita Swirl</span><i></i><b>$12</b></li>
-      <li><span>Señorita</span><i></i><b>$12</b></li>
       <li><span>Margaritas & Cream</span><i></i><b>$14</b></li>
-      <li><span>El Jefe <small>w/ mini Don Julio 1942</small></span><i></i><b>$20</b></li>
+      <li><span>El Jefe</span><i></i><b>$20</b></li>
       <li><span>Freedom Margarita</span><i></i><b>$22</b></li>
     </ul>
+    <a class="link" href="menu.html#margaritas">All drinks →</a>
   </div>
 </section>
 
-<section class="parties section" id="parties">
-  <div class="parties-inner reveal">
-    <p class="eyebrow dark">Events & Private Parties</p>
-    <h2>Bring the crew.<br><em>We'll bring the tacos.</em></h2>
-    <p>Birthdays, team nights, rehearsal dinners or just a reason to celebrate — reach out and we'll help plan a taco spread and margarita lineup for your group.</p>
-    <div class="hero-actions center-row">
-      <a class="btn btn-primary" href="mailto:hello@tacolibrecantina.com?subject=Private%20Event%20Inquiry">Email an Inquiry</a>
-      <a class="btn btn-outline" href="tel:+18432730443">Call (843) 273-0443</a>
-    </div>
-  </div>
-</section>
-
-<section class="visit" id="visit">
-  <div class="visit-img"><img src="libre storefront.jpg" alt="Taco Libre exterior" loading="lazy"></div>
-  <div class="visit-copy reveal">
-    <p class="eyebrow">Visit Taco Libre</p>
-    <h2>Your next taco<br><em>is waiting.</em></h2>
-    <div class="visit-grid">
-      <div><h4>Address</h4><p>730 Hwy 17 S<br>North Myrtle Beach, SC 29582</p></div>
-      <div><h4>Hours</h4><p>Mon–Sat · 4:00–9:00 PM<br>Sunday · Closed</p></div>
-      <div><h4>Phone</h4><p><a href="tel:+18432730443">(843) 273-0443</a></p></div>
-      <div><h4>Email</h4><p><a href="mailto:hello@tacolibrecantina.com">hello@tacolibrecantina.com</a></p></div>
-    </div>
-    <a class="btn btn-primary" href="https://maps.google.com/?q=Taco+Libre+730+Hwy+17+S+North+Myrtle+Beach+SC+29582" target="_blank" rel="noopener">Get Directions</a>
-  </div>
+<section class="cta-strip section">
+  <div class="cta-card reveal"><h3 class="neon-script cyan">Throwing a party?</h3><p>Birthdays, team nights, rehearsal dinners — bring the crew.</p><a class="btn btn-chrome" href="events.html">Events & Private Parties</a></div>
+  <div class="cta-card reveal"><h3 class="neon-script pink">Come say hola</h3><p>730 Hwy 17 S · North Myrtle Beach<br>Mon–Sat 4–9 PM</p><a class="btn btn-neon" href="contact.html">Contact & Directions</a></div>
 </section>
 </main>
-
-<footer>
-  <img src="taco libre logo.png" alt="Taco Libre" class="footer-logo">
-  <p class="footer-tag">★ Deep in the heart of flavor ★</p>
-  <nav><a href="#story">Our Story</a><a href="#menu">Menu</a><a href="#parties">Events</a><a href="#visit">Visit</a></nav>
-  <p class="copy">© <span id="year"></span> Taco Libre Cantina · North Myrtle Beach, SC</p>
-</footer>
-
-<div class="modal" id="menuModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="menuTitle">
-  <div class="modal-panel">
-    <div class="modal-head">
-      <div><p class="eyebrow dark">Taco Libre Cantina</p><h2 id="menuTitle">The Menu</h2></div>
-      <button class="modal-close" aria-label="Close menu">✕</button>
+<footer class="site-footer">
+  <div class="checker" aria-hidden="true"></div>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="taco libre logo.png" alt="Taco Libre">
+      <p class="neon-script pink">Deep in the heart of flavor</p>
     </div>
-    <div class="menu-tabs"><button class="active" data-filter="all">All</button><button data-filter="tacos">Tacos</button><button data-filter="more">Plates & Shareables</button><button data-filter="drinks">Drinks</button></div>
-    <div id="menuContent"></div>
-    <p class="menu-note">Tacos are sold individually unless noted (2). Menu and prices subject to change. Please inform us of any allergies.</p>
+    <div><h4>Visit</h4><p>730 Hwy 17 S<br>North Myrtle Beach, SC 29582</p><a class="link" href="https://maps.google.com/?q=Taco+Libre+730+Hwy+17+S+North+Myrtle+Beach+SC+29582" target="_blank" rel="noopener">Get directions →</a></div>
+    <div><h4>Hours</h4><p>Mon – Sat · 4 – 9 PM<br>Sunday · Closed</p></div>
+    <div><h4>Contact</h4><p><a href="tel:+18432730443">(843) 273-0443</a><br><a href="mailto:hello@tacolibrecantina.com">hello@tacolibrecantina.com</a></p></div>
   </div>
-</div>
+  <nav class="footer-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menus</a><a href="events.html">Events & Parties</a><a href="contact.html">Contact</a></nav>
+  <p class="copy">© <span class="year"></span> Taco Libre Cantina · North Myrtle Beach, SC</p>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>
